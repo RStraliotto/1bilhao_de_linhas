@@ -7,7 +7,7 @@ Este repositório contém um script para gerar um arquivo de medições meteorol
 ## Estrutura do Repositório
 
 - `data/weather_stations.csv`: Arquivo CSV de entrada contendo os nomes das estações meteorológicas.
-- `generate_measurements.py`: Script principal para gerar o arquivo de medições.
+- `create_measurements.py`: Script principal para gerar o arquivo de medições.
 
 ## Requisitos
 
@@ -29,7 +29,7 @@ O arquivo data/weather_stations.csv deve conter os nomes das estações meteorol
 3. Executar o Script
 Para executar o script, use o seguinte comando:
 ```sh
-python generate_measurements.py
+python create_measurements.py
 ```
 O script gera um arquivo data/measurements.txt contendo um bilhão de linhas de medições meteorológicas.
 
