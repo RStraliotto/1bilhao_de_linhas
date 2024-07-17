@@ -76,8 +76,11 @@ python processar_temperaturas.py
 ```
 Isso iniciará o processamento do arquivo de medições. O script carregará os dados, calculará as estatísticas de temperatura para cada estação e exibirá os resultados formatados no terminal.
 Exemplo de Uso
+## Python
 ![image](https://github.com/user-attachments/assets/6cca3d9a-f937-4548-89ec-e6d2bfb67062)
 
+## Pandas
+![image](https://github.com/user-attachments/assets/1de0437b-e14c-4ef5-bac4-c13f0e2da5d4)
 
 Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias.
