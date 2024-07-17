@@ -1,7 +1,4 @@
 # Gerador de Dados Meteorológicos
-## workshop Jornada de dados:
-## https://github.com/lvgalvao/One-Billion-Row-Challenge-Python
-
 Este repositório contém um script para gerar um arquivo de medições meteorológicas com um bilhão de linhas. O arquivo gerado pode ser usado para testes de desempenho e outras finalidades relacionadas a grandes volumes de dados.
 
 ## Estrutura do Repositório
@@ -19,18 +16,20 @@ Este repositório contém um script para gerar um arquivo de medições meteorol
 
 Clone este repositório e navegue até o diretório do projeto:
 
+```sh
 git clone https://github.com/RStraliotto/1bilhao_de_linhas
 cd weather-data-generator
-
-### 2. Estrutura do Arquivo CSV
+```
+2. Estrutura do Arquivo CSV
 O arquivo data/weather_stations.csv deve conter os nomes das estações meteorológicas, separados por ponto e vírgula (;). Cada linha deve representar uma estação.
 
-### 3. Executar o Script
+3. Executar o Script
 Para executar o script, use o seguinte comando:
-
+```sh
 python generate_measurements.py
-
+```
 O script gera um arquivo data/measurements.txt contendo um bilhão de linhas de medições meteorológicas.
+
 
 Funcionamento do Script
 Funções Principais
@@ -45,12 +44,21 @@ main(): Função principal do programa que coordena a leitura dos nomes das esta
 
 Exemplo de Uso
 Ao executar o script, você verá a estimativa do tamanho do arquivo e o tempo necessário para gerar o arquivo data/measurements.txt. A saída do terminal incluirá algo como:
+```sh
+O tamanho estimado do arquivo é: X.XX GiB.
+Criando o arquivo... isso vai demorar uns 10 minutos...
+Arquivo escrito com sucesso em data/measurements.txt
+Tamanho final: Y.YY GiB
+Tempo decorrido: HH horas MM minutos SS segundos
 
-Exemplo de Uso
-Ao executar o script, você verá a estimativa do tamanho do arquivo e o tempo necessário para gerar o arquivo data/measurements.txt. A saída do terminal incluirá algo como:
+```
 
-### Contribuições
+Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias.
 
-### Licença
+Licença
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
+
+# Workshop Jornada de Dados:
+[https://github.com/lvgalvao/One-Billion-Row-Challenge-Python](https://github.com/lvgalvao/One-Billion-Row-Challenge-Python)
+
