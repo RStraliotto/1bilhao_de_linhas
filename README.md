@@ -1,6 +1,9 @@
 # Gerador de Dados Meteorológicos
 Este repositório contém um script para gerar um arquivo de medições meteorológicas com um bilhão de linhas. O arquivo gerado pode ser usado para testes de desempenho e outras finalidades relacionadas a grandes volumes de dados.
 
+# Workshop Jornada de Dados:
+[https://github.com/lvgalvao/One-Billion-Row-Challenge-Python](https://github.com/lvgalvao/One-Billion-Row-Challenge-Python)
+
 ## Estrutura do Repositório
 
 - `data/weather_stations.csv`: Arquivo CSV de entrada contendo os nomes das estações meteorológicas.
@@ -59,6 +62,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 Licença
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
 
-# Workshop Jornada de Dados:
-[https://github.com/lvgalvao/One-Billion-Row-Challenge-Python](https://github.com/lvgalvao/One-Billion-Row-Challenge-Python)
 
