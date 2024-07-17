@@ -55,6 +55,8 @@ Tamanho final: Y.YY GiB
 Tempo decorrido: HH horas MM minutos SS segundos
 
 ```
+![image](https://github.com/user-attachments/assets/f9326cfb-aaf7-444c-a30b-8e15e2d25ce1)
+
 
 Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias.
