@@ -1,9 +1,6 @@
 # Gerador de Dados Meteorológicos
 Este repositório contém um script para gerar um arquivo de medições meteorológicas com um bilhão de linhas. O arquivo gerado pode ser usado para testes de desempenho e outras finalidades relacionadas a grandes volumes de dados.
 
-# Workshop Jornada de Dados:
-[https://github.com/lvgalvao/One-Billion-Row-Challenge-Python](https://github.com/lvgalvao/One-Billion-Row-Challenge-Python)
-
 ## Estrutura do Repositório
 
 - `data/weather_stations.csv`: Arquivo CSV de entrada contendo os nomes das estações meteorológicas.
@@ -55,11 +52,41 @@ Tamanho final: Y.YY GiB
 Tempo decorrido: HH horas MM minutos SS segundos
 
 ```
+![image](https://github.com/user-attachments/assets/d8b8c24b-8cad-4e87-afcb-03e0a6e7b0e7)
+
+
+# Processamento de Dados Meteorológicos
+
+Este script em Python processa um arquivo de medições meteorológicas e calcula estatísticas como temperatura mínima, média e máxima para cada estação meteorológica listada no arquivo.
+
+## Como Executar
+
+### 1. Preparar o Ambiente
+
+Clone este repositório e navegue até o diretório do projeto:
+
+```sh
+git clone https://github.com/RStraliotto/1bilhao_de_linhas
+cd weather-data-processor
+```
+Executar o Script
+Para executar o script, use o seguinte comando:
+```sh
+python processar_temperaturas.py
+```
+Isso iniciará o processamento do arquivo de medições. O script carregará os dados, calculará as estatísticas de temperatura para cada estação e exibirá os resultados formatados no terminal.
+Exemplo de Uso
+![image](https://github.com/user-attachments/assets/6cca3d9a-f937-4548-89ec-e6d2bfb67062)
+
 
 Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias.
 
 Licença
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
+
+# Workshop Jornada de Dados:
+https://github.com/lvgalvao/1bilhaodelinhasaovivo
+Vídeo: https://www.youtube.com/live/X3_QTVIjJz0
 
 
