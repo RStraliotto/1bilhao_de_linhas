@@ -62,7 +62,7 @@ Licença
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
 
 # Workshop Jornada de Dados:
-[https://github.com/lvgalvao/One-Billion-Row-Challenge-Python](https://github.com/lvgalvao/One-Billion-Row-Challenge-Python)
+https://github.com/lvgalvao/1bilhaodelinhasaovivo
 Vídeo: https://www.youtube.com/live/X3_QTVIjJz0
 
 
