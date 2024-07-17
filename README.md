@@ -19,14 +19,13 @@ Este repositório contém um script para gerar um arquivo de medições meteorol
 
 Clone este repositório e navegue até o diretório do projeto:
 
-```sh
 git clone https://github.com/RStraliotto/1bilhao_de_linhas
 cd weather-data-generator
 
-2. Estrutura do Arquivo CSV
+### 2. Estrutura do Arquivo CSV
 O arquivo data/weather_stations.csv deve conter os nomes das estações meteorológicas, separados por ponto e vírgula (;). Cada linha deve representar uma estação.
 
-3. Executar o Script
+### 3. Executar o Script
 Para executar o script, use o seguinte comando:
 
 python generate_measurements.py
@@ -50,8 +49,8 @@ Ao executar o script, você verá a estimativa do tamanho do arquivo e o tempo n
 Exemplo de Uso
 Ao executar o script, você verá a estimativa do tamanho do arquivo e o tempo necessário para gerar o arquivo data/measurements.txt. A saída do terminal incluirá algo como:
 
-Contribuições
+### Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias.
 
-Licença
+### Licença
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
